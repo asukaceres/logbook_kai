@@ -13,7 +13,7 @@ import org.eclipse.swt.graphics.RGB;
 public class AppConstants {
 
     /** バージョン */
-    public static final String VERSION = "0.6.11";
+    public static final String VERSION = "0.6.12";
 
     /** ホームページ */
     public static final URI HOME_PAGE_URI = URI.create("http://kancolle.sanaechan.net/");
@@ -79,7 +79,8 @@ public class AppConstants {
     public static final float EMPTY_SUPPLY = 0.33f;
 
     /** 文字コード(Shift_JIS) */
-    public static final Charset CHARSET = Charset.forName("MS932");
+    //public static final Charset CHARSET = Charset.forName("MS932");
+    public static final Charset CHARSET = Charset.forName("UTF-8");
 
     /** アプリケーション設定ファイル  */
     public static final File APP_CONFIG_FILE = new File("./config/internal.xml");
